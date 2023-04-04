@@ -3,13 +3,12 @@ import Header from './components/Header/Header';
 import Container from './components/Container/Container';
 
 const App = () => {
-
-  return (
-    <Container>
-      <Header />
-      <CurrencyBox />
-    </Container>
-  );
-}
+	return (
+		<Container>
+			<Header />
+			<CurrencyBox />
+		</Container>
+	);
+};
 
 export default App;
